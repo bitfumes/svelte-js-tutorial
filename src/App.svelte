@@ -1,5 +1,5 @@
 <script>
-  import Hello from "./components/Hello.svelte";
+  import Variables from "./components/Variables.svelte";
 </script>
 
 <style>
@@ -25,5 +25,6 @@
 </style>
 
 <main>
-  <Hello />
+  <!-- <Hello /> -->
+  <Variables />
 </main>
