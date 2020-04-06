@@ -1,5 +1,5 @@
 <script>
-  import Variables from "./components/Variables.svelte";
+  import Reactivity from "./components/Reactivity.svelte";
 </script>
 
 <style>
@@ -26,5 +26,5 @@
 
 <main>
   <!-- <Hello /> -->
-  <Variables />
+  <Reactivity />
 </main>
