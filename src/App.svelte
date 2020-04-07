@@ -1,5 +1,5 @@
 <script>
-  import PropsComponent from "./components/PropsComponent.svelte";
+  import Logic from "./components/Logic.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <PropsComponent />
+  <Logic />
 </main>
