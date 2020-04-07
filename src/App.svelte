@@ -1,5 +1,5 @@
 <script>
-  import Reactivity from "./components/Reactivity.svelte";
+  import PropsComponent from "./components/PropsComponent.svelte";
 </script>
 
 <style>
@@ -25,6 +25,5 @@
 </style>
 
 <main>
-  <!-- <Hello /> -->
-  <Reactivity />
+  <PropsComponent />
 </main>
