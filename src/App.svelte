@@ -1,5 +1,5 @@
 <script>
-  import AwaitBlock from "./components/AwaitBlock.svelte";
+  import DomEvent from "./components/DomEvent.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <AwaitBlock />
+  <DomEvent />
 </main>
