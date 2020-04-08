@@ -1,5 +1,5 @@
 <script>
-  import Logic from "./components/Logic.svelte";
+  import AwaitBlock from "./components/AwaitBlock.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Logic />
+  <AwaitBlock />
 </main>
