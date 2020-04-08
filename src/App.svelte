@@ -1,5 +1,5 @@
 <script>
-  import DomEvent from "./components/DomEvent.svelte";
+  import ComponentEvents from "./components/ComponentEvents/ComponentEvents.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <DomEvent />
+  <ComponentEvents />
 </main>
