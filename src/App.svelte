@@ -1,5 +1,5 @@
 <script>
-  import Bindings from "./components/Bindings.svelte";
+  import ThisComp from "./components/BindThis/ThisComp.svelte";
 </script>
 
 <style>
@@ -25,5 +25,6 @@
 </style>
 
 <main>
-  <Bindings />
+  <div id="mydiv">Inside of App component</div>
+  <ThisComp />
 </main>
