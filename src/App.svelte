@@ -1,5 +1,5 @@
 <script>
-  import ComponentEvents from "./components/ComponentEvents/ComponentEvents.svelte";
+  import Bindings from "./components/Bindings.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <ComponentEvents />
+  <Bindings />
 </main>
