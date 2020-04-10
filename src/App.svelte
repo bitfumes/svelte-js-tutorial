@@ -1,5 +1,6 @@
 <script>
-  import ThisComp from "./components/BindThis/ThisComp.svelte";
+  import Destroy from "./components/LifeCycle/Destroy.svelte";
+  let show = false;
 </script>
 
 <style>
@@ -25,6 +26,8 @@
 </style>
 
 <main>
-  <div id="mydiv">Inside of App component</div>
-  <ThisComp />
+  {#if show}
+    <Destroy />
+  {/if}
+  <button on:click={() => (show = !show)}>Show</button>
 </main>
