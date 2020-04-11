@@ -1,5 +1,5 @@
 <script>
-  import BeforeAfterUpdate from "./components/LifeCycle/BeforeAfterUpdate.svelte";
+  import Writable from "./components/store/Writable.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <BeforeAfterUpdate />
+  <Writable />
 </main>
