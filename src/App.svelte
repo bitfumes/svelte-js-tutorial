@@ -1,5 +1,5 @@
 <script>
-  import Writable from "./components/store/Writable.svelte";
+  import Readable from "./components/store/Readable.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Writable />
+  <Readable />
 </main>
