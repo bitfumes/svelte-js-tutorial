@@ -1,6 +1,5 @@
 <script>
-  import Destroy from "./components/LifeCycle/Destroy.svelte";
-  let show = false;
+  import BeforeAfterUpdate from "./components/LifeCycle/BeforeAfterUpdate.svelte";
 </script>
 
 <style>
@@ -26,8 +25,5 @@
 </style>
 
 <main>
-  {#if show}
-    <Destroy />
-  {/if}
-  <button on:click={() => (show = !show)}>Show</button>
+  <BeforeAfterUpdate />
 </main>
