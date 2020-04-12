@@ -1,5 +1,5 @@
 <script>
-  import Slots from "./components/Slots/Slots.svelte";
+  import Props from "./components/Slots/Props.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Slots />
+  <Props />
 </main>
