@@ -1,5 +1,5 @@
 <script>
-  import Readable from "./components/store/Readable.svelte";
+  import Slots from "./components/Slots/Slots.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Readable />
+  <Slots />
 </main>
