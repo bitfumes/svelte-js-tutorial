@@ -1,5 +1,5 @@
 <script>
-  import Spring from "./components/motion/Spring.svelte";
+  import FadeInOut from "./components/Transitions/FadeInOut.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Spring />
+  <FadeInOut />
 </main>
