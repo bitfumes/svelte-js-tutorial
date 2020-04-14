@@ -1,5 +1,5 @@
 <script>
-  import Tween from "./components/motion/Tween.svelte";
+  import Spring from "./components/motion/Spring.svelte";
 </script>
 
 <style>
@@ -25,5 +25,5 @@
 </style>
 
 <main>
-  <Tween />
+  <Spring />
 </main>
